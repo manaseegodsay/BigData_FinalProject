@@ -1,1 +1,2 @@
 # BigData_FinalProject
+Building a near real-time Twitter streaming analytical pipeline with AWS. Amazon managed services (Amazon Kinesis Firehose, AWS Lambda (Python function), Amazon S3, Amazon Elasticsearch Service) integrated to complete the process.  Amazon Kinesis Firehose is used to capture, transform, and load Twitter streaming data into Amazon S3 automatically. Inserting AWS Lambda function with Python into Kinesis Firehose and Amazon S3 to specify the data. For the analysis part, Amazon Elasticsearch Service is being used and Spark to proceed the network analysis. 
